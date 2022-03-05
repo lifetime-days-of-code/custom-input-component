@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS count form</title>
+  <script src="index.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <form action="/" method="GET">
+      <div class="form-content-container">
+        <label for="productName"></label>
+        <input type="text" name="product-name" id="productName" maxlength="60" required autofocus>
+        <span id="charCount" class="character-count">
+          <span id="charactersLeft">60</span>/60
+        </span>
+      </div>
+      <button>Submit</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
